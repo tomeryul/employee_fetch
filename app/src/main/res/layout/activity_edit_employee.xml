@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/yellow_500"
+    android:orientation="vertical"
+    tools:context=".EditEmployeeActivity">
+
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/RP_LBL_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="75dp"
+        android:layout_marginTop="30dp"
+        android:text="Edit employee"
+        android:textSize="40sp" />
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/SAP_IMG_Emp"
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        app:srcCompat="@drawable/ic_launcher_background"
+        android:layout_marginTop="100dp"
+        android:layout_marginStart="50dp"
+        />
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/RP_ET_First_name"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="350dp"
+        android:layout_marginEnd="40dp"
+        android:hint="first name:" />
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/RP_ET_Last_name"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginTop="400dp"
+        android:hint="last name:"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"/>
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/RP_ET_Email"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginTop="450dp"
+        android:hint="email:"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"/>
+
+
+    <Button
+        android:id="@+id/RP_BTN_Register_Changes"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="550dp"
+        android:text="register edit"
+        android:textColor="@color/black"
+        android:backgroundTint="@color/purple_200"
+        tools:ignore="BottomAppBar" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/RP_FAB_Return"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="630dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="0dp"
+        android:backgroundTint="@color/purple_200"
+        android:src="@drawable/ic_icon_left_arrow"
+        android:contentDescription="return to menu" />
+
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

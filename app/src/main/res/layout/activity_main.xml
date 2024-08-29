@@ -1,0 +1,56 @@
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/yellow_500"
+    tools:context=".MainActivity">
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/SAP_LBL_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="workers info"
+        android:textSize="50sp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp" />
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/SAP_IMG_app"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:src="@drawable/app_image"
+        app:srcCompat="@drawable/ic_launcher_background"
+        app:layout_constraintTop_toBottomOf="@+id/SAP_LBL_title"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="80dp" />
+
+    <Button
+        android:id="@+id/SAP_BTN_From_Http"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:text="ReqRes information"
+        android:textColor="@color/black"
+        android:backgroundTint="@color/purple_200"
+        app:layout_constraintTop_toBottomOf="@+id/SAP_IMG_app"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="150dp" />
+
+    <Button
+        android:id="@+id/SAP_BTN_From_Gson"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:text="in app content"
+        android:textColor="@color/black"
+        android:backgroundTint="@color/purple_200"
+        app:layout_constraintTop_toBottomOf="@+id/SAP_BTN_From_Http"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/yellow_500"
+    android:padding="20dp"
+    tools:context=".ListEmployeeActivity">
+
+    <FrameLayout
+        android:id="@+id/employee_FRAME_list"
+        android:layout_width="match_parent"
+        android:layout_height="600dp"
+        android:background="@color/purple_200"
+        android:layout_margin="0dp"
+        />
+
+    <LinearLayout
+        android:layout_width="370dp"
+        android:layout_height="60dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="15dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/SAP_BTN_Delete_Emp"
+            android:layout_width="150dp"
+            android:layout_height="60dp"
+            android:layout_marginStart="20dp"
+            android:backgroundTint="@color/purple_200"
+            android:text="to Delete Employee"
+            android:textColor="@color/black"
+            app:layout_constraintTop_toBottomOf="@+id/employee_FRAME_list" />
+
+        <Button
+            android:id="@+id/SAP_BTN_Edit_Emp"
+            android:layout_width="150dp"
+            android:layout_height="60dp"
+            android:layout_marginStart="20dp"
+            android:backgroundTint="@color/purple_200"
+            android:text="to Edit Employee"
+            android:textColor="@color/black"
+            app:layout_constraintTop_toBottomOf="@+id/employee_FRAME_list" />
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/SAP_BTN_Add_Emp"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginStart="100dp"
+        android:backgroundTint="@color/purple_200"
+        android:text="to Add Employee"
+        android:textColor="@color/black"
+        app:layout_constraintTop_toBottomOf="@+id/employee_FRAME_list"
+        />
+
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>
