@@ -22,9 +22,20 @@ This app is designed to manage employee data efficiently. It fetches data from a
 
 ## Screenshots
 
-![Screenshot 1](path/to/screenshot1.png)
-![Screenshot 2](path/to/screenshot2.png)
-<!-- Add more screenshots as needed -->
+Loading and Fetching:
+![loadingAndFetching](https://github.com/user-attachments/assets/eecd37bd-e44a-4b4b-a233-cf7b8734fa8a)
+
+Editing an employee:
+![EditingEmployee](https://github.com/user-attachments/assets/1ee94a76-0ebd-4faa-9e36-a653c2a1cd1a)
+
+Deliting an employee:
+![DeleteEmployee](https://github.com/user-attachments/assets/ddd69423-b71d-4c83-986c-470987da42a4)
+
+Adding new employee:
+![AddEmployee](https://github.com/user-attachments/assets/791abe67-2475-4a35-8484-7f5c65981c50)
+
+Loading the app again to see the local data information: 
+![CheckIfSaved](https://github.com/user-attachments/assets/6cfb8e3b-e1a4-4f9c-95d6-17a55ef469e9)
 
 
 ### Prerequisites
